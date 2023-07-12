@@ -1,10 +1,5 @@
 #Created by Bangash Owais, Software Engineer, Shenzhen China.
 
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
 """
 import nltk
 
@@ -34,6 +29,3 @@ ner_tags = ne_chunk(pos_tags)
 for entity in ner_tags:
     if hasattr(entity, 'label'):
         print(entity.label(), ' '.join(c[0] for c in entity))
-
-
-
