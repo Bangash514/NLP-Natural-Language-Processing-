@@ -8,7 +8,7 @@ nltk.download('punkt')  # Download necessary resources for tokenization
 from nltk.tokenize import word_tokenize
 
 # Input text
-text = "I am Bangash Owais from Pakistan, currently working as a Software Engineer at SIAT CAS Shenzhen China!"
+text = "I am Bangash Owais from Pakistan, currently working in Shenzhen China!"
 
 # Tokenize the text
 tokens = word_tokenize(text)
